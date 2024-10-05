@@ -45,9 +45,9 @@ export function ShootingStarsAndStarsBackgroundDemo() {
         />
       </div>
 
-      <h2 className={`${anton.className} absolute text-8xl md:text-9xl lg:text-15xl font-extrabold text-anton text-mainBlue z-10 max-w-5xl tracking-tight leading-tight text-left flex flex-col md:flex-row items-start gap-2 md:gap-8 transition-opacity duration-700 ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
+      <h2 className={`${anton.className} absolute text-8xl md:text-9xl lg:text-15xl font-extrabold text-anton text-lYellow z-10 max-w-5xl tracking-tight leading-tight text-left flex flex-col md:flex-row items-start gap-2 md:gap-8 transition-opacity duration-700 ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
         <h2>ESUMMIT</h2>
-        <h3 className="md:text-6xl lg:text-10xl font-bold text-lYellow">
+        <h3 className="md:text-6xl lg:text-10xl font-bold text-mainBlue">
         &apos;24
         </h3>
       </h2>
