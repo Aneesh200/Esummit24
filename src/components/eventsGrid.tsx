@@ -29,6 +29,7 @@ export function ModalGrid() {
           <p><strong>Registration Fee:</strong> Free</p>
         </>
       ),
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSefHeRbDcR3QEib0qrF_yvDipJ33NPSd_IBNczFyCg4sEa55w/viewform',  // Registration link for Best Manager
     },
     {
       title: 'Sync It Up',
@@ -43,6 +44,7 @@ export function ModalGrid() {
           <p><strong>Registration Fee:</strong> Free</p>
         </>
       ),
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfSnsF-59pK8LiGKSFuGxggZbfcsqvWM0of9lmRLrFamqArsA/viewform?pli=1',  // Registration link for Sync It Up
     },
     {
       title: 'Jeopardy',
@@ -58,6 +60,7 @@ export function ModalGrid() {
           <p><strong>Teams Competing:</strong> 25 teams in total</p>
         </>
       ),
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScUXEF2z7yGrPBxYsJwzIu9llhXdfWp9-P2WW5DtFU2NVOejQ/viewform',  // Registration link for Jeopardy
     },
   ];
 
@@ -70,6 +73,7 @@ export function ModalGrid() {
             title={modal.title}
             description={modal.description}
             details={modal.details}
+            registerLink={modal.registerLink}  // Passing the register link to each modal
           />
         ))}
       </div>
