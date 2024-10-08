@@ -5,7 +5,7 @@ import { Modal } from '@/components/events'; // Import the Modal component
 export function ModalGrid() {
   const modalData = [
     {
-      title: 'Aarambh',
+      title: 'AARAMBH',
       description: 'Pitch your groundbreaking ideas and stand a chance to secure $200K in funding!',
       details: (
         <>
@@ -18,7 +18,7 @@ export function ModalGrid() {
       ),
     },
     {
-      title: 'Best Manager',
+      title: 'BEST MANAGER',
       description: 'Competitive challenge testing leadership, decision-making, and managerial skills.',
       details: (
         <>
@@ -32,7 +32,7 @@ export function ModalGrid() {
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSefHeRbDcR3QEib0qrF_yvDipJ33NPSd_IBNczFyCg4sEa55w/viewform',  // Registration link for Best Manager
     },
     {
-      title: 'Sync It Up',
+      title: 'SYNC IT UP',
       description: 'Team up and pitch innovative product ideas in high-energy rounds!',
       details: (
         <>
@@ -47,7 +47,7 @@ export function ModalGrid() {
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfSnsF-59pK8LiGKSFuGxggZbfcsqvWM0of9lmRLrFamqArsA/viewform?pli=1',  // Registration link for Sync It Up
     },
     {
-      title: 'Jeopardy',
+      title: 'JEOPARDY',
       description: 'Solve complex problems in an intellectually demanding format.',
       details: (
         <>
@@ -61,6 +61,21 @@ export function ModalGrid() {
         </>
       ),
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScUXEF2z7yGrPBxYsJwzIu9llhXdfWp9-P2WW5DtFU2NVOejQ/viewform',  // Registration link for Jeopardy
+    },
+    {
+      title: 'SINK OR SELL',
+      description: 'Think fast, innovate faster—pitch, plan, and problem-solve your way to victory in this ultimate product development challenge!',
+      details: (
+        <>
+          <p><strong>Event Format:</strong> A fast-paced 2-person team event focusing on creativity, collaboration, and presentation skills.</p>
+          <p><strong>Challenge:</strong> Join an exciting product development challenge! Pitch ideas, plan, solve crises, and compete to win — are you ready?.</p>
+          <p><strong>Prize Pool:</strong> Rs.15,000</p>
+          <p><strong>Team Size:</strong> 2 members</p>
+          <p><strong>Date:</strong> 19th October</p>
+          <p><strong>Registration Fee:</strong> Free</p>
+        </>
+      ),
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdBgKidjKnvZyLejuqlxsXgxzTiinqZ1UYPRr63kQT7nCYZrg/viewform',  // Registration link for Sync It Up
     },
   ];
 

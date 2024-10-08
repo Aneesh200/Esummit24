@@ -64,7 +64,7 @@ export function TimelineDemo() {
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
           <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              <span className="font-extrabold text-lYellow">19th October:</span> Inauguration, Best Manager competition, Sync It Up, and Jeopardy.
+              <span className="font-extrabold text-lYellow">19th October:</span> Inauguration, Best Manager competition, Sync It Up, Sink or Sell and Jeopardy.
             </p>
             <FontAwesomeIcon icon={faTrophy} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
@@ -122,7 +122,7 @@ export function TimelineDemo() {
         >
           <span className="block">Timeline</span>
         </h1>
-        <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mt-2">
+        <p className={`${anton.className} text-lg md:text-2xl text-neutral-600 dark:text-neutral-400 mt-2`}>
           Join us for a series of incredible events!
         </p>
       </div>
