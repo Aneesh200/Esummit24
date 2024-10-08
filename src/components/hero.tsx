@@ -60,7 +60,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
         <a href="https://www.instagram.com/pes_ecell?igsh=MWJlaTg4eDllajlvZw==" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
+        <a href="https://www.linkedin.com/company/center-for-innovation-and-entrepreneurship-pes-university/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
       </div>
