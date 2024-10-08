@@ -45,9 +45,9 @@ export function ShootingStarsAndStarsBackgroundDemo() {
         />
       </div>
 
-      <h2 className={`${anton.className} absolute text-8xl md:text-9xl lg:text-15xl font-extrabold text-anton text-mainBlue z-10 max-w-5xl tracking-tight leading-tight text-left flex flex-col md:flex-row items-start gap-2 md:gap-8 transition-opacity duration-700 ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
+      <h2 className={`${anton.className} absolute text-8xl md:text-9xl lg:text-15xl font-extrabold text-anton text-lYellow z-10 max-w-5xl tracking-tight leading-tight text-left flex flex-col md:flex-row items-start gap-2 md:gap-8 transition-opacity duration-700 ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
         <h2>ESUMMIT</h2>
-        <h3 className="md:text-6xl lg:text-10xl font-bold text-lYellow">
+        <h3 className="md:text-6xl lg:text-10xl font-bold text-mainBlue">
         &apos;24
         </h3>
       </h2>
@@ -57,7 +57,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
 
       {/* Social Media Icons */}
       <div className="absolute bottom-10 right-10 flex space-x-4">
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
+        <a href="https://www.instagram.com/pes_ecell?igsh=MWJlaTg4eDllajlvZw==" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-lYellow hover:text-lYellow transition duration-300">
@@ -74,3 +74,4 @@ export function ShootingStarsAndStarsBackgroundDemo() {
 }
 
 export default dynamic(() => Promise.resolve(ShootingStarsAndStarsBackgroundDemo), { ssr: false });
+

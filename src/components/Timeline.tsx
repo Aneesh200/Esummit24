@@ -14,11 +14,11 @@ export function TimelineDemo() {
       title: "Registration Opens",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex items-center mb-2">
-            <FontAwesomeIcon icon={faCalendarAlt} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 mr-2" />
+          <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              3rd October: Registration opens for the event.
+              <span className="font-extrabold text-lYellow">3rd October:</span> Registration opens for the event.
             </p>
+            <FontAwesomeIcon icon={faCalendarAlt} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
           <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl">
             Get ready to secure your spot!
@@ -30,11 +30,11 @@ export function TimelineDemo() {
       title: "Registration Closes",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex items-center mb-2">
-            <FontAwesomeIcon icon={faClock} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 mr-2" />
+          <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              13th October: Last date for registration.
+              <span className="font-extrabold text-lYellow">13th October:</span> Last date for registration.
             </p>
+            <FontAwesomeIcon icon={faClock} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
           <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl">
             Don&apos;t miss out on this opportunity!
@@ -46,11 +46,11 @@ export function TimelineDemo() {
       title: "EIE Startup Santhe",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex items-center mb-2">
-            <FontAwesomeIcon icon={faRocket} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 mr-2" />
+          <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              18th October: EIE Startup Santhe event takes place.
+              <span className="font-extrabold text-lYellow">18th October:</span> EIE Startup Santhe event takes place.
             </p>
+            <FontAwesomeIcon icon={faRocket} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
           <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl">
             Join us for an inspiring day filled with innovation!
@@ -62,11 +62,11 @@ export function TimelineDemo() {
       title: "Esummit Events",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex items-center mb-2">
-            <FontAwesomeIcon icon={faTrophy} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 mr-2" />
+          <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              19th October: Inauguration, Best Manager competition, Sync It Up, and Jeopardy.
+              <span className="font-extrabold text-lYellow">19th October:</span> Inauguration, Best Manager competition, Sync It Up, and Jeopardy.
             </p>
+            <FontAwesomeIcon icon={faTrophy} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
           <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl">
             Exciting competitions and events await!
@@ -78,11 +78,11 @@ export function TimelineDemo() {
       title: "Closing Events",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex items-center mb-2">
-            <FontAwesomeIcon icon={faChartBar} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 mr-2" />
+          <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              20th October: Jeopardy Day 2, Aarambh, Closing Ceremony, and Prize Distribution.
+              <span className="font-extrabold text-lYellow">20th October:</span> Jeopardy Day 2, Aarambh, Closing Ceremony, and Prize Distribution.
             </p>
+            <FontAwesomeIcon icon={faChartBar} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
           <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl">
             Celebrate the end of an amazing journey with us!
@@ -120,7 +120,7 @@ export function TimelineDemo() {
         <h1
           className={`${anton.className} text-6xl md:text-11xl font-extrabold text-anton text-lYellow z-10 max-w-5xl tracking-tight leading-tight`}
         >
-          <span className="block">Exciting Timeline</span>
+          <span className="block">Timeline</span>
         </h1>
         <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mt-2">
           Join us for a series of incredible events!

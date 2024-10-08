@@ -9,9 +9,10 @@ interface ModalProps {
   title: string;
   description: string;
   details: React.ReactNode;
+  registerLink?: string;  // Made optional by adding '?'
 }
 
-export function Modal({ title, description, details }: ModalProps) {
+export function Modal({ title, description, details, registerLink }: ModalProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -75,12 +76,20 @@ export function Modal({ title, description, details }: ModalProps) {
           >
             <h2 className="text-2xl font-bold mb-4 text-mainBlue">{title}</h2>
             <p className="mb-4 text-gray-700">{details}</p>
-            <button
-              onClick={closeModal}
-              className="px-4 py-2 bg-mainBlue text-white rounded-lg hover:bg-blue-800"
-            >
-              Close
-            </button>
+
+            {/* Register button - only show if registerLink is provided */}
+            {registerLink && (
+              <a
+                href={registerLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-4 py-2 text-center bg-mainBlue text-white rounded-lg hover:bg-blue-800 mb-4"
+              >
+                Register for Event
+              </a>
+            )}
+
+            {/* Close button */}
           </div>
         </div>
       )}
