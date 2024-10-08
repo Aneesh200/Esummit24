@@ -122,7 +122,7 @@ export function TimelineDemo() {
         >
           <span className="block">Timeline</span>
         </h1>
-        <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mt-2">
+        <p className={`${anton.className} text-lg md:text-2xl text-neutral-600 dark:text-neutral-400 mt-2`}>
           Join us for a series of incredible events!
         </p>
       </div>

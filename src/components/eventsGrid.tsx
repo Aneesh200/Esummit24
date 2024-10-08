@@ -67,10 +67,10 @@ export function ModalGrid() {
       description: 'Think fast, innovate faster—pitch, plan, and problem-solve your way to victory in this ultimate product development challenge!',
       details: (
         <>
-          <p><strong>Event Format:</strong> A fast-paced 2 to 4 person team event focusing on creativity, collaboration, and presentation skills.</p>
-          <p><strong>Challenge:</strong> Ideate, pitch, plan, and navigate crises—prove your product's worth from concept to market in this multi-round innovation showdown!.</p>
+          <p><strong>Event Format:</strong> A fast-paced 2-person team event focusing on creativity, collaboration, and presentation skills.</p>
+          <p><strong>Challenge:</strong> Join an exciting product development challenge! Pitch ideas, plan, solve crises, and compete to win — are you ready?.</p>
           <p><strong>Prize Pool:</strong> Rs.15,000</p>
-          <p><strong>Team Size:</strong> 2 to 4 members</p>
+          <p><strong>Team Size:</strong> 2 members</p>
           <p><strong>Date:</strong> 19th October</p>
           <p><strong>Registration Fee:</strong> Free</p>
         </>
