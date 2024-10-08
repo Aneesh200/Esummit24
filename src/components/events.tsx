@@ -22,7 +22,7 @@ export function Modal({ title, description, details, registerLink }: ModalProps)
     <div className="relative">
       {/* Card */}
       <div
-        className={`${anton.className} h-80 max-w-sm bg-coolGray border border-gray-200 rounded-lg shadow-lg dark:border-gray-700 
+        className={`${anton.className} h-96 max-w-sm bg-coolGray border border-gray-200 rounded-lg shadow-lg dark:border-gray-700 
           transition-transform transform hover:scale-105 hover:border-lYellow hover:shadow-2xl duration-300 ${
             isModalOpen ? 'blur-sm' : ''
           }`}
@@ -42,7 +42,7 @@ export function Modal({ title, description, details, registerLink }: ModalProps)
               e.preventDefault(); // Prevent default behavior
               openModal();
             }}
-            className="inline-flex items-center mr-44 mb-10 px-3 py-2 text-sm font-medium text-center text-white bg-mainBlue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            className="inline-flex items-center mr-36 mb-10 px-4 py-2 text-sm font-medium text-center text-white bg-mainBlue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Read more
             <svg
