@@ -39,7 +39,7 @@ export function Footer() {
           </div>
           <div className="flex items-center mb-2">
             <FaEnvelope className="mr-2" />
-            <span>ecell@pes.edu</span>
+            <span><a href="mailto:ecell@pes.edu">ecell@pes.edu</a></span>
           </div>
         </div>
 
