@@ -64,7 +64,7 @@ export function TimelineDemo() {
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
           <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              <span className="font-extrabold text-lYellow">19th October:</span> Inauguration, Best Manager competition, Sync It Up, Sink or Sell and Jeopardy.
+              <span className="font-extrabold text-lYellow">19th October:</span> Inauguration, Best Manager competition, Sync It Up and Jeopardy.
             </p>
             <FontAwesomeIcon icon={faTrophy} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>
@@ -80,7 +80,7 @@ export function TimelineDemo() {
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
           <div className="flex justify-between items-center mb-2">
             <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold">
-              <span className="font-extrabold text-lYellow">20th October:</span> Jeopardy Day 2, Aarambh, Closing Ceremony, and Prize Distribution.
+              <span className="font-extrabold text-lYellow">20th October:</span> Jeopardy Day 2, Sink or Sell, Aarambh, Closing Ceremony, and Prize Distribution.
             </p>
             <FontAwesomeIcon icon={faChartBar} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
           </div>

@@ -72,7 +72,7 @@ export function ModalGrid() {
           <p><strong>Challenge:</strong> Join an exciting product development challenge! Pitch ideas, plan, solve crises, and compete to win — are you ready?.</p>
           <p><strong>Prize Pool:</strong> Rs.15,000</p>
           <p><strong>Team Size:</strong> 2 members</p>
-          <p><strong>Date:</strong> 19th October</p>
+          <p><strong>Date:</strong> 20th October</p>
           <p><strong>Registration Fee:</strong> Free</p>
         </>
       ),
