@@ -46,7 +46,7 @@ export function Footer() {
         {/* Right Section: Visit Us at RR Campus */}
         <div className="flex flex-col items-start">
           <h2 className={`${anton.className} text-2xl mb-2`}>Visit Us at RR Campus</h2>
-          <p className="text-lg">123, 1st Main Road, RR Nagar, Bengaluru, Karnataka 560061</p>
+          <p className="text-lg">100 Feet Ring Road, Banashankari Stage III, Dwaraka Nagar, Banashankari, Bengaluru, Karnataka 560085</p> // updated the address
           <p className="text-lg">We welcome you to explore our campus and meet our team!</p>
         </div>
       </div>

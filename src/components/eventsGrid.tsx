@@ -16,6 +16,7 @@ export function ModalGrid() {
           <p><strong>Contact:</strong> Adithya R, +91 821776 0263</p>
         </>
       ),
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScTiFB_1VM2CZRA72ttLgh2YoNZfVP6MKfKrbSeU4zdAb8H3g/viewform',  // Registration link for Aarambh
     },
     {
       title: 'BEST MANAGER',
@@ -75,7 +76,7 @@ export function ModalGrid() {
           <p><strong>Registration Fee:</strong> Free</p>
         </>
       ),
-      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdBgKidjKnvZyLejuqlxsXgxzTiinqZ1UYPRr63kQT7nCYZrg/viewform',  // Registration link for Sync It Up
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdBgKidjKnvZyLejuqlxsXgxzTiinqZ1UYPRr63kQT7nCYZrg/viewform',  // Registration link for Sink or Sell
     },
   ];
 
