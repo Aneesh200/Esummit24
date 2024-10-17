@@ -3,7 +3,7 @@ import React from "react";
 import { Anton } from "next/font/google";
 import { Timeline } from "@/components/ui/timeline";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt, faClock, faRocket, faTrophy, faChartBar } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt, faClock, faTrophy, faChartBar } from '@fortawesome/free-solid-svg-icons';
 
 // Import Anton font
 const anton = Anton({ subsets: ["latin"], weight: ["400"] });
