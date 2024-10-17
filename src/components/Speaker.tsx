@@ -11,7 +11,7 @@ export function SpeakerCard() {
       {/* Speakers Title Aligned Left */}
       <div className="w-full">
         <h1
-          className={`${anton.className} text-8xl md:text-9xl mt-8 lg:text-11xl font-extrabold mb-10 text-lYellow max-w-5xl tracking-tight leading-tight transition-opacity duration-700`}
+          className={`${anton.className} text-8xl md:text-9xl mt-8 mr-16 lg:text-11xl font-extrabold mb-10 text-lYellow max-w-5xl tracking-tight leading-tight transition-opacity duration-700`}
         >
           Speaker
         </h1>
