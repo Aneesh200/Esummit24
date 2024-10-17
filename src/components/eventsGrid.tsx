@@ -11,9 +11,8 @@ export function ModalGrid() {
         <>
           <p><strong>Opportunity:</strong> Entrepreneurs can pitch their startup ideas to investors and industry leaders.</p>
           <p><strong>Prizes:</strong> Up to $200K in funding, with travel and accommodation expenses covered for finalists.</p>
-          <p><strong>Semi-finals Date:</strong> 19th October</p>
           <p><strong>Venue:</strong> PESU RR Campus</p>
-          <p><strong>Contact:</strong> Adithya R, +91 821776 0263</p>
+          <p><strong>Contact:</strong> Adithya R : +91 821776 0263</p>
         </>
       ),
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScTiFB_1VM2CZRA72ttLgh2YoNZfVP6MKfKrbSeU4zdAb8H3g/viewform',  // Registration link for Aarambh

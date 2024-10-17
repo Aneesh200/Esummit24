@@ -43,23 +43,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "EIE Startup Santhe",
-      content: (
-        <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
-          <div className="flex justify-between items-center mb-2">
-            <p className="text-neutral-200 text-xl md:text-2xl font-bold">
-              <span className="font-extrabold text-lYellow">18th October:</span> EIE Startup Santhe event takes place.
-            </p>
-            <FontAwesomeIcon icon={faRocket} className="h-6 w-6 text-neutral-800 dark:text-neutral-200 ml-2" />
-          </div>
-          <p className="text-neutral-300 text-lg md:text-xl">
-            Join us for an inspiring day filled with innovation!
-          </p>
-        </div>
-      ),
-    },
-    {
-      title: "Esummit Events",
+      title: "ESummit Events",
       content: (
         <div className="lg:p-16 p-8 rounded-lg shadow-lg bg-mainBlue mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105">
           <div className="flex justify-between items-center mb-2">
